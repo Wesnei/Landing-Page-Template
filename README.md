@@ -1,34 +1,69 @@
-# Mantine Vite template
 
-## Features
+# Mantix Lab – Landing Page
 
-This template comes with the following features:
+Projeto criado a partir do template Vite com Mantine, com foco em boas práticas de desenvolvimento frontend para utilização em oficina prática.
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Vitest](https://vitest.dev/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+A aplicação demonstra organização por componentes, layout responsivo e estrutura moderna baseada em React.
 
-## npm scripts
+---
 
-## Build and dev scripts
+## Tecnologias utilizadas
 
-- `dev` – start development server
-- `build` – build production version of the app
-- `preview` – locally preview production build
+- React
+- Vite
+- Mantine UI
+- TypeScript
 
-### Testing scripts
+---
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `vitest` – runs vitest tests
-- `vitest:watch` – starts vitest watch
-- `test` – runs `vitest`, `prettier:check`, `lint` and `typecheck` scripts
+## Estrutura do projeto
 
-### Other scripts
+O projeto foi organizado separando cada seção da landing page em componentes independentes:
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+- Header
+- Hero
+- Sobre
+- Projetos
+- Contato
+- Footer
+
+Essa organização facilita manutenção, reutilização e escalabilidade.
+
+---
+
+## Funcionalidades
+
+- Layout responsivo (mobile e desktop)
+- Navegação com âncoras internas
+- Componentização
+- Estrutura preparada para expansão
+
+---
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Wesnei/Landing-Page-Template.git
+````
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## Objetivo
+
+Servir como base prática para demonstrar a construção de uma landing page moderna utilizando React + Mantine com organização voltada para boas práticas.
+
+
