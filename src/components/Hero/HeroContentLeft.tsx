@@ -16,7 +16,6 @@ export function HeroContentLeft() {
         </Text>
 
         <br />
-        <br />
       </Container>
     </div>
   );
