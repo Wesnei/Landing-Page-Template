@@ -1,4 +1,4 @@
-import { Button, Container, Overlay, Text, Title } from '@mantine/core';
+import { Container, Overlay, Text, Title } from '@mantine/core';
 import classes from './HeroContentLeft.module.css';
 
 export function HeroContentLeft() {
@@ -15,9 +15,9 @@ export function HeroContentLeft() {
           Interface escalável, arquitetura organizada e ferramentas modernas em uma base profissional.
         </Text>
 
-        <Button variant="gradient" size="xl" radius="xl" className={classes.control}>
-          Começar agora
-        </Button>
+        <br />
+        <br />
+        <br />
       </Container>
     </div>
   );

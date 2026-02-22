@@ -27,10 +27,10 @@ export function HeroText() {
 
         <div className={classes.controls}>
           <Button className={classes.control} size="lg" variant="default" color="gray">
-            Falar com a equipe
+            Dúvidas frequentes
           </Button>
           <Button className={classes.control} size="lg">
-            Conhecer nossos serviços
+            Nossos serviços
           </Button>
         </div>
       </div>
