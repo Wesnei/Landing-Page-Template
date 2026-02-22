@@ -14,8 +14,6 @@ export function HeroContentLeft() {
         <Text className={classes.description} size="xl" mt="xl">
           Interface escalável, arquitetura organizada e ferramentas modernas em uma base profissional.
         </Text>
-
-        <br />
       </Container>
     </div>
   );
