@@ -33,6 +33,9 @@ export function ContactUs() {
 
   return (
     <div className={classes.wrapper} id='contato'>
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={50}>
         <div>
           <Title className={classes.title}>Entre em Contato</Title>
@@ -48,14 +51,15 @@ export function ContactUs() {
         <div className={classes.form}>
           <TextInput
             label="Email"
-            placeholder="your@email.com"
+            placeholder="mantinelab@gmail.com"
+            mt="md"
             required
             radius="md"
             classNames={{ input: classes.input, label: classes.inputLabel }}
           />
           <TextInput
             label="Nome"
-            placeholder="John Doe"
+            placeholder="Seu Nome"
             mt="md"
             radius="md"
             classNames={{ input: classes.input, label: classes.inputLabel }}
@@ -63,7 +67,7 @@ export function ContactUs() {
           <Textarea
             required
             label="Fale Conosco"
-            placeholder="I want to order your goods"
+            placeholder="Digite sua mensagem aqui..."
             minRows={4}
             mt="md"
             radius="md"
@@ -77,6 +81,7 @@ export function ContactUs() {
           </Group>
         </div>
       </SimpleGrid>
+    </div>
     </div>
   );
 }

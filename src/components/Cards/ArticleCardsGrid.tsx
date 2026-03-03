@@ -29,18 +29,29 @@ const mockdata = [
 ];
 
 export function ArticlesCardsGrid() {
-  const cards = mockdata.map((article) => (
-    <Card key={article.title} p="md" radius="md" component="a" href="#" className={classes.card} id='projetos'>
+  const cards = mockdata.map((article, index) => (
+    <Card
+      key={article.title}
+      p="md"
+      radius="md"
+      component="a"
+      href="#"
+      className={classes.card}
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-delay={index * 200} // efeito cascata
+    >
       <AspectRatio ratio={1920 / 1080}>
         <Image src={article.image} alt={article.title} radius="md" />
       </AspectRatio>
+
       <Text className={classes.date}>{article.date}</Text>
       <Text className={classes.title}>{article.title}</Text>
     </Card>
   ));
 
   return (
-    <Container py="xl">
+    <Container py="xl" id="projetos">
       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={{ base: 0, sm: 'md' }}>
         {cards}
       </SimpleGrid>

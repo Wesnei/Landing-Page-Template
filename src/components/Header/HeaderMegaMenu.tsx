@@ -1,11 +1,4 @@
 import {
-  IconBook,
-  IconChartPie3,
-  IconChevronDown,
-  IconCode,
-  IconCoin,
-  IconFingerprint,
-  IconNotification,
 } from '@tabler/icons-react';
 import {
   Box,
@@ -16,7 +9,6 @@ import {
   Group,
   HoverCard,
   ScrollArea,
-  useMantineTheme,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineLogo } from '@mantinex/mantine-logo';
@@ -26,9 +18,6 @@ import classes from './HeaderMegaMenu.module.css';
 
 export function HeaderMegaMenu() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] = useDisclosure(false);
-  const theme = useMantineTheme();
-
-  
 
   return (
     <Box>

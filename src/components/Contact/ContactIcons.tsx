@@ -26,7 +26,7 @@ function ContactIcon({ icon: Icon, title, description, ...others }: ContactIconP
 }
 
 const MOCKDATA = [
-  { title: 'Email', description: 'mantixlab@gmail.com', icon: IconAt },
+  { title: 'Email', description: 'mantinelab@gmail.com', icon: IconAt },
   { title: 'Telefone', description: '+55 (88) 98833-4535', icon: IconPhone },
   { title: 'Endereço', description: 'Boa Viagem, Centro', icon: IconMapPin },
   { title: 'Horário de funcionamento', description: 'Das 8H às 12H - 14H às 18H', icon: IconSun },

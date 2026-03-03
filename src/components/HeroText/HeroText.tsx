@@ -11,6 +11,9 @@ export function HeroText() {
       <Dots className={classes.dots} style={{ right: 0, top: 60 }} />
 
       <div className={classes.inner}>
+        <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
         <Title className={classes.title}>
           Desenvolvemos soluções{' '}
           <Text component="span" className={classes.highlight} inherit>
@@ -33,6 +36,7 @@ export function HeroText() {
             Nossos serviços
           </Button>
         </div>
+      </div>
       </div>
     </Container>
   );

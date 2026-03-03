@@ -4,8 +4,7 @@ import HeroText from '@/components/HeroText/HeroText';
 import { ArticlesCardsGrid } from '@/components/Cards/ArticleCardsGrid';
 import { Demo } from '@/components/Title/Title';
 import { ContactUs } from '@/components/Contact/ContactUs';
-import { FooterCentered } from '@/components/Footer/FooterCentered';
-
+import { FooterSocial } from '@/components/Footer/FooterSocial';
 
 
 
@@ -18,7 +17,7 @@ export function HomePage() {
       <Demo />
       <ArticlesCardsGrid />
       <ContactUs />
-      <FooterCentered />
+      <FooterSocial />
     </>
   );
 }
